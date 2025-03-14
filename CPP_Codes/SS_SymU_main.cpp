@@ -111,7 +111,7 @@ string NegL(int choice) {
         case 9:
             return ("Xi != X_pi + 1");
         case 10:
-            return ("Xi < X_pi");    
+            return ("Xi <= X_pi");    
         default:
             assert(false && "Invalid choice"); 
             return "Invalid"; 
